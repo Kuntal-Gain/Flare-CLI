@@ -1,0 +1,32 @@
+{
+  "name": "flare-cli",
+  "version": "1.0.0",
+  "description": "Flare CLI for wireless app deployment and QR code generation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "deploy",
+    "qr",
+    "app",
+    "init",
+    "start"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.6.0",
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.1"
+  },
+  "type": "module",
+  "bin": {
+    "flare": "./index.js"
+  }
+}
